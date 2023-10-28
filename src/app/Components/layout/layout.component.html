@@ -29,7 +29,7 @@
   <mat-sidenav #sidenav opened="true" mode="over" style="width: 200px;"  >
       <mat-nav-list>
 
-          <mat-list-item *ngFor="let menu of listaMenus"   [routerLink]="menu.url">
+          <mat-list-item *ngFor="let menu of listaMenus"   [routerLink]="menu.url" (click)="sidenav.close()">
               <mat-icon mat-list-icon>{{menu.icono}}</mat-icon>
               <div mat-line >{{menu.nombre}}</div>
           </mat-list-item>

@@ -22,17 +22,7 @@ export class LayoutComponent implements OnInit {
   listaMenus:Menu[] = [];
   correoUsuario:string = '';
   rolUsuario:string = '';
-  // darkMode: boolean = false;
-  // toggleDarkMode(): void {
-  //   this.darkMode = !this.darkMode;
-  //   const body = document.querySelector('body');
-  //   body!.classList.toggle('dark-mode', this.darkMode);
-  // }
-
-
-
-
-
+ 
 
 
   constructor(
