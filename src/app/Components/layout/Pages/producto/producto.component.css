@@ -1,0 +1,15 @@
+.tabla-conteiner{
+  width: 100% !important;
+  overflow: scroll;
+}
+
+
+table{
+
+  width: 100%;
+}
+
+.mat-form-field{
+  font-size: 14px;
+  width: 100%;
+}

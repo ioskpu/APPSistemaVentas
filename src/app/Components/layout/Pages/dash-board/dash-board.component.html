@@ -1,0 +1,58 @@
+<h1 style> Dashboard - Resumen última semana</h1>
+
+<div class="card">
+
+      <div class="container">
+
+
+            <div class="primer-card">
+                <mat-card >
+                    <mat-card-header>
+                        <div mat-card-avatar>
+                            <mat-icon color="accent">payments</mat-icon>
+                        </div>
+                        <mat-card-title>Total Ingresos</mat-card-title>
+                        <mat-card-subtitle>S/. {{totalIngresos}}</mat-card-subtitle>
+                    </mat-card-header>
+                </mat-card>
+              </div>
+
+            <div class="segundo-card">
+                <mat-card  >
+                    <mat-card-header>
+                        <div mat-card-avatar>
+                            <mat-icon color="warn">sell</mat-icon>
+                        </div>
+                        <mat-card-title>Total Ventas</mat-card-title>
+                        <mat-card-subtitle>{{totalVentas}}</mat-card-subtitle>
+                    </mat-card-header>
+                </mat-card>
+              </div>
+
+              <div class="tercer-card">
+                <mat-card >
+                    <mat-card-header>
+                        <div mat-card-avatar>
+                            <mat-icon color="primary">collections_bookmark</mat-icon>
+                        </div>
+                        <mat-card-title>Total Productos</mat-card-title>
+                        <mat-card-subtitle>{{totalProductos}}</mat-card-subtitle>
+                    </mat-card-header>
+                </mat-card>
+              </div>
+
+      </div>
+
+    </div>
+
+    <div class="canvas">
+        <mat-card style="margin-top: 15px;">
+            <mat-card-content>
+                <div style="width: 100%;height: 400px;">
+                    <canvas id="chartBarras"></canvas>
+                </div>
+            </mat-card-content>
+
+        </mat-card>
+      </div>
+
